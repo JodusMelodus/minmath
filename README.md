@@ -1,6 +1,7 @@
 # minmath
 [![GitHub stars](https://img.shields.io/github/stars/Jodus-Melodus/minmath)](https://github.com/Jodus-Melodus/minmath/stargazers)
 [![GitHub license](https://img.shields.io/github/license/Jodus-Melodus/minmath)](https://github.com/Jodus-Melodus/minmath/blob/main/LICENSE.md)
+[![Rust Tests](https://github.com/JodusMelodus/minmath/actions/workflows/tests.yml/badge.svg)](https://github.com/JodusMelodus/minmath/actions/workflows/tests.yml)
 
 [![Crates.io](https://img.shields.io/crates/v/minmath.svg)](https://crates.io/crates/minmath)
 [![Crates.io downloads](https://img.shields.io/crates/d/minmath.svg)](https://crates.io/crates/minmath)
