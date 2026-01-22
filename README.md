@@ -60,8 +60,8 @@ cargo add minmath
 
 ## Structures and Features
 
-- [Matrix](https://github.com/Jodus-Melodus/minmath/blob/master/README_MATRIX.md)
-- [Vector](https://github.com/Jodus-Melodus/minmath/blob/master/README_VECTOR.md)
+- [Matrix](https://github.com/Jodus-Melodus/minmath/blob/master/docs/README_MATRIX.md)
+- [Vector](https://github.com/Jodus-Melodus/minmath/blob/master/docs/README_VECTOR.md)
 
 ## License
 
