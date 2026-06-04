@@ -31,6 +31,14 @@ fn main() {
 }
 ```
 
+### Complex
+
+```rust
+fn main() {
+    let z = Complex::new(4.0, 3.0);
+}
+```
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/Jodus-Melodus/minmath/issues).
@@ -62,6 +70,7 @@ cargo add minmath
 
 - [Matrix](https://github.com/Jodus-Melodus/minmath/blob/master/docs/README_MATRIX.md)
 - [Vector](https://github.com/Jodus-Melodus/minmath/blob/master/docs/README_VECTOR.md)
+- [Complex](https://github.com/Jodus-Melodus/minmath/blob/master/docs/README_COMPLEX.md)
 
 ## License
 
