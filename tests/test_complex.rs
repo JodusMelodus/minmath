@@ -39,4 +39,40 @@ mod tests {
         let r = z.r#mod();
         assert_eq!(r, 5.0);
     }
+
+    #[test]
+    fn test_complex_add() {
+        let z1 = Complex::new(3.0, -1.0);
+        let z2 = Complex::new(-2.0, 3.0);
+        let z3 = z1 + z2;
+        assert_eq!(z3.re, 1.0);
+        assert_eq!(z3.im, 2.0);
+    }
+
+    #[test]
+    fn test_complex_sub() {
+        let z1 = Complex::new(3.0, -1.0);
+        let z2 = Complex::new(-2.0, 3.0);
+        let z3 = z1 - z2;
+        assert_eq!(z3.re, 5.0);
+        assert_eq!(z3.im, -4.0);
+    }
+
+    #[test]
+    fn test_complex_mul() {
+        let z1 = Complex::new(3.0, -1.0);
+        let z2 = Complex::new(-2.0, 3.0);
+        let z3 = z1 * z2;
+        assert_eq!(z3.re, -3.0);
+        assert_eq!(z3.im, 11.0);
+    }
+
+    #[test]
+    fn test_complex_div() {
+        let z1 = Complex::new(3.0, -2.0);
+        let z2 = Complex::new(-2.0, 3.0);
+        let z3 = z1 / z2;
+        assert_eq!(z3.re, -12.0 / 13.0);
+        assert_eq!(z3.im, -5.0 / 13.0);
+    }
 }
